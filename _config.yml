@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: Hexo-blog for C.L.
+subtitle: '爱我完美的不完美✨'
+description: '算法竞赛做题小记📈'
+keywords: 算法竞赛, OI, NOI, ACM, CCPC, ICPC, 算法, 程序设计
+author: Calculatelove
+language: "zh-CN"
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -51,6 +51,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
