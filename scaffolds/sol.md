@@ -10,7 +10,7 @@ tags:
 
 Link：
 
-{% note info %}
+{% note default %}
 
 {% endnote %}
 
