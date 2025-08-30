@@ -103,3 +103,10 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+markdown:
+  plugins:
+    - "@traptitech/markdown-it-katex"
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
