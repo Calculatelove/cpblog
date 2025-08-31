@@ -110,3 +110,13 @@ markdown:
   anchors:
     level: 2
     collisionSuffix: 'v'
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."

@@ -68,7 +68,7 @@ creative_commons:
   # Available values: big | small
   size: small
   sidebar: false
-  post: false
+  post: true
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   language:
@@ -260,7 +260,7 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
-  item_text_total: false
+  item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -429,7 +429,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -453,14 +453,14 @@ font:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
-    external: true
-    family: consolas
+    external: false
+    family: Maple Mono, consolas
     size:
 
   # Font settings for posts (.post-body).
   posts:
-    external: true
-    family: consolas
+    external: false
+    family: Maple Mono, consolas
 
   # Font settings for <code> and code blocks.
   codes:
