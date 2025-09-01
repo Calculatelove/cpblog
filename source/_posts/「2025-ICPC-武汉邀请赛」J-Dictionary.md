@@ -19,7 +19,7 @@ Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)。
 
 有 $Q$ 次操作，每次操作会给出两个参数 $l, r$，你将会在字典中，学习以 $S[l : r]$ 为前缀的所有单词。每次操作结束后，你需要求出有多少个单词被你学习过。
 
-数据范围：$1 \leq n, q \leq 2 \times 10^5$，$1 \leq l \leq r \leq n$。
+数据范围：$1 \leq n, Q \leq 2 \times 10^5$，$1 \leq l \leq r \leq n$。
 
 数据范围：$4$s / $1024$MiB。
 
