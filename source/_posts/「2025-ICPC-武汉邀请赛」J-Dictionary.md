@@ -27,11 +27,11 @@ Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)。
 
 <!-- more -->
 
-# Solution
-
 唉西安邀请赛前，怎么这个题都不会做呢 ... 简直烂完了 ...
 
 记录本题是因为，很少用 SA 的视角考虑这类问题，SA 相比 SAM 没那么直观。
+
+# Solution
 
 ## 算法一：SA
 
