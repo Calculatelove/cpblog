@@ -11,7 +11,7 @@ tags:
 
 # Description
 
-Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)。
+Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)
 
 {% note default %}
 
