@@ -6,7 +6,6 @@ categories: Ynoi
 tags:
   - 启发式合并
   - 扫描线
-  - 树状数组
 ---
 
 # Description

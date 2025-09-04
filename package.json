@@ -25,6 +25,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.24.1",
-    "hexo-word-counter": "^0.2.1"
+    "hexo-word-counter": "^0.2.1",
+    "highlight.js": "^11.11.1"
   }
 }
