@@ -42,7 +42,7 @@ By the Way：也可以使用 LCT 的 access 操作，求出 $O(n \log n)$ 个二
 
 剩余的部分就是很朴素的扫描线了，不过多赘述。
 
-时间复杂度 $O(n \log^2 n + m \log n)$。
+时间复杂度 $\mathcal{O}(n \log^2 n + m \log n)$。
 
 ```c++
 #include <bits/stdc++.h>

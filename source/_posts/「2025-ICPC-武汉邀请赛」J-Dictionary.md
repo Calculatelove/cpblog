@@ -43,7 +43,7 @@ Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)
 
 使用线段树维护没被学习过的部分，支持区间赋值与单点修改。
 
-时间复杂度 $O((n + Q) \log n)$。
+时间复杂度 $\mathcal{O}((n + Q) \log n)$。
 
 ## 算法二：SAM
 
@@ -53,7 +53,7 @@ Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)
 
 在 dfs 序上使用线段树维护没被学习过的部分，支持区间赋值与单点修改。
 
-时间复杂度 $O((n + Q) \log n)$。
+时间复杂度 $\mathcal{O}((n + Q) \log n)$。
 
 ```c++
 #include <bits/stdc++.h>
