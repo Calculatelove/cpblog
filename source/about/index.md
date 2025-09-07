@@ -8,6 +8,8 @@ type: "about"
 谁人又相信一生一世这肤浅对白，来吧送给你叫几百万人流泪过的歌 ...
 </blockquote>
 
+![Codeforces Rating](https://api.cubercsl.site/codeforces/Calculatelove)
+
 Hi, Calculatelove here! ✨
 - 📝[cnblogs](https://www.cnblogs.com/cjtcalc) 用于发布 笔记/浅谈/游记。
 - 📈[hexo-blog](https://calculatelove.github.io/) 用于发布 做题小记。
