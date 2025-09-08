@@ -15,7 +15,7 @@ Link：[CF2131H](https://codeforces.com/problemset/problem/2131/H)
 
 给出一个长度为 $n$ 的数组 $a$，其中数组中的元素均为 $1 \sim m$ 中的正整数。
 
-你需要找到四个不同的索引 $p, q，r, s$，使得 $\gcd(a_p, a_q) = 1$ 且 $\gcd(a_r, a_s) = 1$。
+你需要找到四个不同的索引 $p, q, r, s$，使得 $\gcd(a_p, a_q) = 1$ 且 $\gcd(a_r, a_s) = 1$。
 
 数据范围：$4 \leq n \leq 2 \times 10^5$，$1 \leq m \leq 10^6$，$1 \leq a_i \leq m$。
 
