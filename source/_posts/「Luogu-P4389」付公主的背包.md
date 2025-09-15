@@ -1,8 +1,8 @@
 ---
-title: 「2024 ICPC 昆明站」I. Items
-date: 2025-09-13 11:29:14
-updated: 2025-09-13 11:29:14
-categories: ICPC
+title: 「Luogu P4389」付公主的背包
+date: 2025-09-15 23:24:23
+updated: 2025-09-15 23:24:23
+categories: Luogu
 tags:
   - 生成函数
   - 多项式
@@ -10,17 +10,17 @@ tags:
 
 # Description
 
-Link：[QOJ 9870](https://qoj.ac/contest/1871/problem/9870)
+Link：[Luogu P4389](https://www.luogu.com.cn/problem/P4389)
 
 {% note default %}
 
-有 $n$ 种物品，其中第 $i$ 种物品的重量为 $w_i$，每一种物品的数量都是无限的。
+有 $n$ 种物品，其中第 $i$ 种物品的体积为 $v_i$，每一种物品的数量都是无限的。
 
-是否能恰好选 $n$ 个物品，使得所选物品的重量之和为 $m$。
+给出背包的体积上限 $m$，对于 $s \in [1, m]$，你都需要求出使用这些物品恰好装满 $s$ 体积的方案数。两个方案不同当且仅当存在某个物品的选取个数不同。
 
-数据范围：$1 \leq n \leq 10^5$，$0 \leq m \leq n^2$，$0 \leq w_i \leq n$。
+数据范围：$1 \leq n, m \leq 10^5$，$1 \leq v_i \leq m$。
 
-时空限制：$8$s / $1024$MiB。
+时空限制：$1$s / $500$MiB。
 
 {% endnote %}
 
@@ -28,28 +28,56 @@ Link：[QOJ 9870](https://qoj.ac/contest/1871/problem/9870)
 
 # Solution
 
-设 $b_i$ 表示是否存在重量为 $i$ 的物品，设 $f(x)$ 是 $b_i$ 的生成函数，则相当于是要判断 $[x^m]f^n(x)$ 是否大于 $0$。直接计算 $f^n(x)$ 肯定不行，因为值域太大了。
+{% note danger %}
 
-考虑进行一些转换，记 $B = \left\lfloor \frac{m}{n} \right\rfloor$，则令 $w_i \gets w_i - B$，$m \gets m - nB$。显然转化后的问题与原问题等价，此时 $w_i \in [-B, n - B]$，$m \in [0, n)$。
+有一个明显错误的做法：设 $c_i$ 表示体积为 $i$ 的物品个数，记 $c_i$ 的生成函数为 $a$，则答案的多项式为 $a + a^2 + a^3 + \cdots = \frac{a}{1 - a}$。
 
-{% note info %}
-
-结论：假设存在一种选择物品的方案，使得重量之和恰好为 $m$。则一定可以对选择物品的顺序进行重排序，使得任意时刻下（排序后的任何前缀），物品重量之和都在 $[0, n]$ 范围内。
-
-证明：设剩余可供选择物品的可重集为 $S$。我们依次确定每次选择的物品是什么，设 $\mathrm{sum}$ 表示当前选择的物品的重量之和：
-- 若 $\mathrm{sum} = B$，由于物品的重量范围为 $[-B, n - B]$，从 $S$ 中任意选择一个物品，都可以保证重量之和在 $[0, n]$ 范围内。
-- 若 $\mathrm{sum} < B$，由于物品重量 $\leq n - B$，从 $S$ 中任意选择一个正的物品，都可以保证重量之和 $\leq n$。
-  特别地，若 $S$ 中没有正的物品，则剩下的物品全是负的并且总和恰好为 $m - \mathrm{pre}$，以任意顺序加入剩下的物品即可。
-- 若 $\mathrm{sum} > B$，由于物品重量 $\geq -B$，从 $S$ 中任意选择一个负的物品，都可以保证重量之和 $\geq 0$。
-  特别地，若 $S$ 中没有负的物品，则剩下的物品全是正的并且总和恰好为 $m - \mathrm{pre}$，以任意顺序加入剩下的物品即可。
+**错误原因是，方案被重复计算**。例如 $3$ 可以同时可以被 $1 + 2$ 和 $2 + 1$ 构造出来。
 
 {% endnote %}
 
-于是，**任意时刻下，有效的物品重量之和都在 $[0, n]$ 范围内**。于是我们沿用多项式快速幂的做法，每次只需保留 $x^{-n} \sim x^{n}$ 中的项即可。
+为了不重复计算，我们可以从一个物品的选取次数来入手。
 
-理论上需要双模 NTT 来减少冲突的概率，但我的模板还没有这项功能，待填坑。
+对于一个体积为 $v$ 的物品，可以通过选取 $i(i \geq 0)$ 次获得一个体积为 $iv$ 的物品，故该物品对应的生成函数为 $1 + x^v + x^{2v} + \cdots = \frac{1}{1 - x^v}$。显然答案即为所有物品生成函数的乘积。
 
-时间复杂度 $\mathcal{O}(n \log^2 n)$。
+直接相乘不太好做。**此时可以考虑先取 ln，转化为相加后再进行 exp**。注意到该生成函数的 ln 形式相当特殊
+
+$$
+\ln \frac{1}{1 - x^v} = -\ln(1 - x^v) = \sum\limits_{i \geq 1} \frac{x^{vi}}{i}
+$$
+
+{% note default %}
+<details>
+<summary> 来回顾一下泰勒公式与麦克劳林公式 </summary>
+
+泰勒公式：
+
+$$
+f(x) = \sum\limits_{i = 0}^{\infty} \frac{f^{(i)}(a)}{i!} (x - a)^i
+$$
+
+麦克劳林公式：
+
+$$
+f(x) = \sum\limits_{i = 0}^{\infty} \frac{f^{(i)}(0)}{i!} x^i
+$$
+
+常见函数的麦克劳林展开
+
+$$
+\begin{aligned}
+e^x & = \sum\limits_{i = 0}^{\infty} \frac{x^i}{i!} \\
+\ln(1 + x) & = \sum\limits_{i = 1}^{\infty} \frac{(-1)^{i - 1}x^i}{i} \\
+\ln(1 - x) & = -\sum\limits_{i = 1}^{\infty} \frac{x^i}{i}
+\end{aligned}
+$$
+
+</details>
+{% endnote %}
+
+于是可以考虑用一个桶，记录一下体积为 $v$ 的物品个数。然后一起计算贡献。得出多项式 ln 之和的时间复杂度与调和级数一致，为 $\mathcal{O}(m \log m)$。最后再 exp 回去即可。
+
+时间复杂度 $\mathcal{O}(m \log m)$。
 
 ```c++
 #include <bits/stdc++.h>
@@ -413,44 +441,39 @@ constexpr poly lagrange(std::vector< std::pair<int, int> > seq) {
     return solve(1, 0, n - 1);
 }
 
-int n; s64 m;
-int b;
 
-void work() {
-    std::cin >> n >> m;
-
-    b = m / n, m = m - 1ll * b * n;
-
-    poly a(2 * n + 1);
-    for (int i = 1; i <= n; i ++) {
-        int w;
-        std::cin >> w;
-        w = w - b + n;
-        a[w] = 1;
-    }
-
-    poly f = a;
-    for (int b = n - 1; b; b >>= 1) {
-        if (b & 1) f = (f * a).divxk(n).modxk(2 * n + 1);
-        a = (a * a).divxk(n).modxk(2 * n + 1);
-    }
-
-    if (f[m + n]) {
-        std::cout << "Yes\n";
-    } else {
-        std::cout << "No\n";
-    }
-}
 
 int main() {
     std::ios::sync_with_stdio(0);
     std::cin.tie(0);
 
-    int T;
-    std::cin >> T;
-    
-    while (T --) {
-        work();
+    int n, m;
+    std::cin >> n >> m;
+
+    std::vector<int> cnt(m + 1);
+
+    for (int i = 1; i <= n; i ++) {
+        int v;
+        std::cin >> v;
+        cnt[v] ++;
+    }
+
+    std::vector<int> inv(m + 1);
+    for (int i = 1; i <= m; i ++) {
+        inv[i] = qpow(i, mod - 2, mod);
+    }
+
+    poly a(m + 1);
+    for (int i = 1; i <= m; i ++) {
+        for (int j = 1; j <= m / i; j ++) {
+            add(a[i * j], 1ll * cnt[i] * inv[j] % mod);
+        }
+    }
+
+    poly res = a.exp(m + 1);
+
+    for (int i = 1; i <= m; i ++) {
+        std::cout << res[i] << '\n';
     }
 
     return 0;
