@@ -32,8 +32,8 @@ Link：[CF2131H](https://codeforces.com/problemset/problem/2131/H)
 $$
 \begin{aligned}
 & \sum\limits_{i = 1}^m \mathrm{cnt}_i [\gcd(i, x) = 1] \\
-& = \sum\limits_{i = 1}^m \mathrm{cnt}_i \sum\limits_{d \mid i, d \mid x} \mu(d) \\
-& = \sum\limits_{d \mid x} \mu(d) \sum\limits_{d \mid i} \mathrm{cnt}_i
+= & \sum\limits_{i = 1}^m \mathrm{cnt}_i \sum\limits_{d \mid i, d \mid x} \mu(d) \\
+= & \sum\limits_{d \mid x} \mu(d) \sum\limits_{d \mid i} \mathrm{cnt}_i
 \end{aligned}
 $$
 

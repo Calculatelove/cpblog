@@ -43,8 +43,8 @@ reference: https://oi.wiki/geometry/distance/
 $$
 \begin{aligned}
 & |x_1 - x_2| + |y_1 - y_2| \\
-& = \max\left\{ x_1 - x_2 + y_1 - y_2, -x_1 + x_2 + y_1 - y_2, x_1 - x_2 - y_1 + y_2, -x_1 + x_2 - y_1 + y_2 \right\} \\
-& = \max\left\{ |(x_1 + y_1) - (x_2 + y_2)|, |(x_1 - y_1) - (x_2 - y_2)| \right\}
+= & \max\left\{ x_1 - x_2 + y_1 - y_2, -x_1 + x_2 + y_1 - y_2, x_1 - x_2 - y_1 + y_2, -x_1 + x_2 - y_1 + y_2 \right\} \\
+= & \max\left\{ |(x_1 + y_1) - (x_2 + y_2)|, |(x_1 - y_1) - (x_2 - y_2)| \right\}
 \end{aligned}
 $$
 

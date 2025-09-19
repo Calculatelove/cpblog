@@ -33,13 +33,13 @@ $$
 $$
 \begin{aligned}
 & \sum\limits_{i = 1}^{n - 1} A_{n - 1 - s}^{i - 1} \cdot s \cdot (n - 1 - i)! \cdot (n - i) \\
-& = \sum\limits_{i = 1}^{n - 1} \frac{(n - 1 - s)!}{(n - i - s)!} \cdot s \cdot (n - i)! \\
-& = (n - 1 - s)! \cdot s \cdot \sum\limits_{i = 1}^{n - 1} \frac{(n - i)!}{(n - i - s)!} \\
-& = (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \frac{(n - i)!}{(n - i - s)! \cdot s!} \\
-& = (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \binom{n - i}{s} \\
-& = (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \binom{i}{s} \\
-& = (n - 1 - s)! \cdot s \cdot s! \cdot \binom{n}{s + 1} \\
-& = (n - 1 - s)! \cdot s \cdot s! \cdot \frac{n!}{(n - 1 - s)! \cdot (s + 1)!} \\
-& = \frac{s}{s + 1} \cdot n!
+= & \sum\limits_{i = 1}^{n - 1} \frac{(n - 1 - s)!}{(n - i - s)!} \cdot s \cdot (n - i)! \\
+= & (n - 1 - s)! \cdot s \cdot \sum\limits_{i = 1}^{n - 1} \frac{(n - i)!}{(n - i - s)!} \\
+= & (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \frac{(n - i)!}{(n - i - s)! \cdot s!} \\
+= & (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \binom{n - i}{s} \\
+= & (n - 1 - s)! \cdot s \cdot s! \cdot \sum\limits_{i = 1}^{n - 1} \binom{i}{s} \\
+= & (n - 1 - s)! \cdot s \cdot s! \cdot \binom{n}{s + 1} \\
+= & (n - 1 - s)! \cdot s \cdot s! \cdot \frac{n!}{(n - 1 - s)! \cdot (s + 1)!} \\
+= & \frac{s}{s + 1} \cdot n!
 \end{aligned}
 $$
