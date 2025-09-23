@@ -178,7 +178,8 @@ void idft(std::vector<int> &a) {
 }
 
 /*
-    多项式全家桶（C++23 以上版本可用）
+    多项式全家桶（2025.09.17）
+    C++23 以上：请放心使用
     C++11 ~ C++20：请删去所有的 constexpr（直接 #define constexpr 即可）
 */
 struct poly : public std::vector<int> {
