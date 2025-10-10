@@ -2,8 +2,10 @@
 title: 「2024 ICPC 上海站」F. Fast Bogosort
 date: 2025-10-10 10:51:27
 updated: 2025-10-10 10:51:27
-categories:
+categories: ICPC
 tags:
+  - 多项式
+  - 半在线卷积
 ---
 
 # Description
