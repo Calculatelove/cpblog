@@ -32,7 +32,7 @@ Link：[CF2178G](https://codeforces.com/contest/2178/problem/G)
 
 # Solution
 
-设 $f_i$ 表示考虑了前 $i$ 条弦，以弦 $i$ 为结尾的链个数。由于我们只关心链个数的奇偶性，所以我们只需维护 $\bmod 2$ 意义下的值即可。显然有转移
+设 $f_i$ 表示考虑了前 $i$ 条弦，以弦 $i$ 为结尾的链个数。由于我们只关心链个数的奇偶性，所以我们只需维护 $\bmod \ 2$ 意义下的值即可。显然有转移
 
 $$
 f_i = \left(\bigoplus_{j < i, \mathrm{ok}(j, i) = 1} f_j\right) \oplus 1
