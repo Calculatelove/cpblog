@@ -5,10 +5,8 @@ type: "about"
 ---
 
 <blockquote class="blockquote-center">
-谁人又相信一生一世这肤浅对白，来吧送给你叫几百万人流泪过的歌 ...
+我是一个坚持到底的人，仅此而已。
 </blockquote>
-
-![Codeforces Rating](https://api.cubercsl.site/codeforces/Calculatelove)
 
 Hi, Calculatelove here! ✨
 - 📝[cnblogs](https://www.cnblogs.com/cjtcalc) 用于发布 笔记/浅谈/游记。
