@@ -1,7 +1,7 @@
 ---
 title: 「CF704B」Ant Man
-date: 2026-03-04 20:17:19
-updated: 2026-03-04 20:17:19
+date: 2025-03-12 00:00:03
+updated: 2026-03-04 00:00:03
 categories: Codeforces
 tags:
   - DP
