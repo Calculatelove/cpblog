@@ -1,6 +1,6 @@
 ---
 title: 「CF1637F」Towers
-date: 2026-03-17 00:00:02
+date: 2025-03-17 00:00:02
 updated: 2026-03-05 14:25:58
 categories: Codeforces
 tags:

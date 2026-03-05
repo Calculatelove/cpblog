@@ -1,6 +1,6 @@
 ---
 title: 「CF2077D」Maximum Polygon
-date: 2026-03-17 00:00:03
+date: 2025-03-17 00:00:03
 updated: 2026-03-05 14:38:41
 categories: Codeforces
 tags:

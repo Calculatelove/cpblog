@@ -1,6 +1,6 @@
 ---
 title: 「CF1444C」Team-Building
-date: 2026-03-17 00:00:04
+date: 2025-03-17 00:00:04
 updated: 2026-03-05 15:03:25
 categories: Codeforces
 tags:

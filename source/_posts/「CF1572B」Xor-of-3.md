@@ -1,6 +1,6 @@
 ---
 title: 「CF1572B」Xor of 3
-date: 2026-03-17 00:00:01
+date: 2025-03-17 00:00:01
 updated: 2026-03-05 14:14:04
 categories: Codeforces
 tags:
