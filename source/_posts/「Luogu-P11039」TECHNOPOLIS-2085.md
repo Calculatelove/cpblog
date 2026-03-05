@@ -15,9 +15,7 @@ Link：[Luogu P11039](https://www.luogu.com.cn/problem/P11039)
 
 给出一棵包含 $n$ 个点的有根树 $T$，根节点为 $1$。给出一个大小为 $m$ 的关键点集合 $S$。
 
-你需要求出有多少个不同的**有根树** $T'$，满足对于任意 $x, y \in S$，均有 $\mathrm{LCA}_T(x, y) = \mathrm{LCA}_{T'}(x, y)$。
-
-答案对 $998244353$ 取模。
+你需要求出有多少个不同的**有根树** $T'$，满足对于任意 $x, y \in S$，均有 $\mathrm{LCA}_T(x, y) = \mathrm{LCA}_{T'}(x, y)$。答案对 $998244353$ 取模。
 
 数据范围：$2 \leq m \leq n \leq 10^6$。
 
