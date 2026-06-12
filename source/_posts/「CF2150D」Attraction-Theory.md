@@ -4,7 +4,6 @@ date: 2025-09-26 15:33:59
 updated: 2025-09-26 15:33:59
 categories: Codeforces
 tags:
-  - 「数学」
   - 组合数学
   - 期望
 ---

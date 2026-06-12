@@ -4,7 +4,6 @@ date: 2025-09-19 14:48:11
 updated: 2025-09-19 14:48:11
 categories: AtCoder
 tags:
-  - 「数学」
   - 多项式
   - 组合数学
   - 期望

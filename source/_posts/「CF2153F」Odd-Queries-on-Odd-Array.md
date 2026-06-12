@@ -4,7 +4,6 @@ date: 2025-10-12 18:52:28
 updated: 2025-10-12 18:52:28
 categories: Codeforces
 tags:
-  - 「数据结构」
   - 树形结构
 ---
 

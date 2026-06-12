@@ -4,7 +4,6 @@ date: 2025-03-10 00:00:03
 updated: 2026-03-02 00:00:03
 categories: Codeforces
 tags:
-  - 「数学」
   - 组合数学
   - 多项式
 ---

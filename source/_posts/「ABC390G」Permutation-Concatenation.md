@@ -4,7 +4,6 @@ date: 2025-09-17 22:31:16
 updated: 2025-09-17 22:31:16
 categories: AtCoder
 tags:
-  - 「数学」
   - 多项式
   - 组合数学
 ---

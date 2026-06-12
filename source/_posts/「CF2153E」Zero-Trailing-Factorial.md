@@ -4,7 +4,6 @@ date: 2025-10-12 20:53:45
 updated: 2025-10-12 20:53:45
 categories: Codeforces
 tags:
-  - 「数学」
   - 约数
 ---
 

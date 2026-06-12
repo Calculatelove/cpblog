@@ -4,7 +4,6 @@ date: 2025-09-15 19:11:24
 updated: 2025-09-15 19:11:24
 categories: ICPC
 tags:
-  - 「数据结构」
   - 分块
 ---
 

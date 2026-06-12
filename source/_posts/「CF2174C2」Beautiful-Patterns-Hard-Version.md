@@ -4,7 +4,6 @@ date: 2025-12-08 17:36:14
 updated: 2025-12-08 17:36:14
 categories: Codeforces
 tags:
-  - 「数学」
   - 回文串
   - 期望
 ---

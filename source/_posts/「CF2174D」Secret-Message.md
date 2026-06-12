@@ -4,7 +4,6 @@ date: 2025-12-08 16:51:14
 updated: 2025-12-08 16:51:14
 categories: Codeforces
 tags:
-  - 「图论」
   - 树上问题
 ---
 

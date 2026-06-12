@@ -4,7 +4,7 @@ date: 2025-03-24 00:00:01
 updated: 2026-03-05 15:49:00
 categories: Codeforces
 tags: 
-  - 「DP」
+  - DP
   - Prufer 序列
 ---
 

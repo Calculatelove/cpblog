@@ -4,7 +4,7 @@ date: 2025-10-10 16:25:36
 updated: 2025-10-10 16:25:36
 categories: Codeforces
 tags:
-  - 「DP」
+  - DP
 ---
 
 # Description

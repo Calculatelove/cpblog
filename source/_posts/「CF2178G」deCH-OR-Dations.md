@@ -4,7 +4,7 @@ date: 2026-01-16 20:59:59
 updated: 2026-01-16 20:59:59
 categories: Codeforces
 tags:
-  - 「DP」
+  - DP
   - 异或哈希
   - 树状数组
 ---

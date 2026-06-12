@@ -4,7 +4,6 @@ date: 2025-09-08 10:01:00
 updated: 2025-09-08 10:01:00
 categories: Codeforces
 tags:
-  - 「数学」
   - 莫比乌斯反演
 ---
 

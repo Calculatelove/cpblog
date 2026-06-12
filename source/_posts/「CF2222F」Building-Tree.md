@@ -4,7 +4,6 @@ date: 2026-05-18 15:14:57
 updated: 2026-05-18 15:14:57
 categories: Codeforces
 tags:
-  - 数据结构
   - 分治
   - 缺一分治
 ---

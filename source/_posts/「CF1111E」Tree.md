@@ -4,7 +4,6 @@ date: 2025-03-16 00:00:01
 updated: 2026-03-04 00:00:01
 categories: Codeforces
 tags:
-  - 「数学」
   - 二项式反演
   - 树状数组
   - 换根

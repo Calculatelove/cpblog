@@ -4,7 +4,6 @@ date: 2026-01-18 17:21:46
 updated: 2026-01-18 17:21:46
 categories: Codeforces
 tags:
-  - 「数学」
   - Prufer 序列
 ---
 

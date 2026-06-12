@@ -4,7 +4,6 @@ date: 2025-03-10 00:00:01
 updated: 2026-03-02 00:00:01
 categories: Codeforces
 tags:
-  - 「图论」
   - 最小生成树
   - 最短路
 ---
