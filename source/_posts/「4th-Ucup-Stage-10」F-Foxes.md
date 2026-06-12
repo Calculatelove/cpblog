@@ -4,6 +4,7 @@ date: 2026-01-15 20:03:39
 updated: 2026-01-15 20:03:39
 categories: Ucup
 tags:
+  - 「数据结构」
   - 线段树
 ---
 
@@ -13,7 +14,7 @@ Link：[QOJ 16005](https://qoj.ac/contest/2814/problem/16005)
 
 {% note default %}
 
-给出一个长度为 $n$ 的序列 $a_1, a_2, \cdots, a_n$。有一个指针 $p$（初始时 $p = 1$）。
+给出一个长度为 $n$ 的序列 $a_1, a_2, \dots, a_n$。有一个指针 $p$（初始时 $p = 1$）。
 
 有 $Q$ 次操作，每次操作为以下三种之一：
 - `<`：令 $p \gets p - 1$。

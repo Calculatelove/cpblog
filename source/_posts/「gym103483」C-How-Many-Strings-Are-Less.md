@@ -4,6 +4,8 @@ date: 2025-03-25 00:00:01
 updated: 2026-03-05 16:28:55
 categories: Codeforces
 tags:
+  - 「字符串」
+  - 「数据结构」
   - Trie
 ---
 

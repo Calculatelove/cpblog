@@ -4,6 +4,7 @@ date: 2025-03-11 00:00:01
 updated: 2026-03-04 00:00:01
 categories: Codeforces
 tags:
+  - 「图论」
   - 并查集
 ---
 

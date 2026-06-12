@@ -18,7 +18,7 @@ Link：[CF2077D](https://codeforces.com/contest/2077/problem/D)
 当且仅当 $|s| \geq 3$ 且满足以下条件时，$s$ 可以作为多边形的边长
 
 $$
-2 \cdot \max(s_1, \cdots, s_{|s|}) < s_1 + \cdots + s_{|s|}
+2 \cdot \max(s_1, \dots, s_{|s|}) < s_1 + \dots + s_{|s|}
 $$
 
 数据范围：$3 \leq n \leq 2 \times 10^5$，$1 \leq a_i \leq 10^9$。

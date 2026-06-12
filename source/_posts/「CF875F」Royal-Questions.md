@@ -4,6 +4,7 @@ date: 2025-03-11 00:00:02
 updated: 2026-03-04 00:00:02
 categories: Codeforces
 tags:
+  - 「图论」
   - 基环树
 ---
 

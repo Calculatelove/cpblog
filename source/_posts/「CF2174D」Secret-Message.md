@@ -4,6 +4,7 @@ date: 2025-12-08 16:51:14
 updated: 2025-12-08 16:51:14
 categories: Codeforces
 tags:
+  - 「图论」
   - 树上问题
 ---
 
@@ -27,7 +28,7 @@ Link：[CF2174D](https://codeforces.com/contest/2174/problem/D)
 
 # Solution
 
-首先将所有边按照边权从小到大排序为 $e_1, e_2, \cdots, e_m$，记权值分别为 $w_1, w_2, \cdots, w_m$。
+首先将所有边按照边权从小到大排序为 $e_1, e_2, \dots, e_m$，记权值分别为 $w_1, w_2, \dots, w_m$。
 
 首先考虑前 $n - 1$ 条边，如果不构成一棵树则结束。否则我们可以得到前 $n - 1$ 条边构成的生成树，考虑在该生成树上替换若干条边。
 

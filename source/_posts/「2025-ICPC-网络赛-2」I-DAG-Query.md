@@ -4,6 +4,7 @@ date: 2025-09-14 23:07:48
 updated: 2025-09-14 23:07:48
 categories: ICPC
 tags:
+  - 「数学」
   - 拉格朗日插值
 ---
 
@@ -43,7 +44,7 @@ $$
 
 容易看出 $f(1, n, x)$ 是一个关于 $x$ 的 $n - 1$ 次多项式，需要 $n$ 个点值才能拉插。
 
-使用 $n - 1$ 次询问，得到 $x = 1 \cdots n - 1$ 时 $f(1, n, x)$ 的值。再加上 $f(1, n, 0) = 0$ 这一个点值，刚好凑齐 $n$ 个点值，直接拉插！
+使用 $n - 1$ 次询问，得到 $x = 1 \dots n - 1$ 时 $f(1, n, x)$ 的值。再加上 $f(1, n, 0) = 0$ 这一个点值，刚好凑齐 $n$ 个点值，直接拉插！
 
 {% note warning %}
 
@@ -64,10 +65,10 @@ $$
 
 $$
 \begin{pmatrix}
-1 & x_1 & x_1^2 & \cdots & x_1^{n - 1} \\
-1 & x_2 & x_2^2 & \cdots & x_2^{n - 1} \\
+1 & x_1 & x_1^2 & \dots & x_1^{n - 1} \\
+1 & x_2 & x_2^2 & \dots & x_2^{n - 1} \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-1 & x_n & x_n^2 & \cdots & x_n^{n - 1} \\
+1 & x_n & x_n^2 & \dots & x_n^{n - 1} \\
 \end{pmatrix}
 \begin{pmatrix}
 a_0 \\

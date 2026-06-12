@@ -4,6 +4,7 @@ date: 2026-01-18 17:21:46
 updated: 2026-01-18 17:21:46
 categories: Codeforces
 tags:
+  - 「数学」
   - Prufer 序列
 ---
 
@@ -29,7 +30,7 @@ Link：[CF2190D](https://codeforces.com/contest/2190/problem/D)
 
 {% note info %}
 
-<span class="highlight">扩展 Cayley 公式</span>：对于一个包含 $n$ 个点 $m$ 条边的森林，设其有 $k$ 个连通块，大小分别为 $s_1, s_2, \cdots, s_k$，则可以使得森林变成树的加边方式恰有
+<span class="highlight">扩展 Cayley 公式</span>：对于一个包含 $n$ 个点 $m$ 条边的森林，设其有 $k$ 个连通块，大小分别为 $s_1, s_2, \dots, s_k$，则可以使得森林变成树的加边方式恰有
 
 $$
 n^{k - 2}\prod_{i = 1}^k s_i
@@ -50,14 +51,14 @@ $$
 \begin{aligned}
 \sum \prod_{i = 1}^k s_i^{d_i} & = \left( \prod_{i = 1}^k s_i \right) \cdot \sum \prod_{i = 1}^k s_i^{d_i - 1} \\
 & = \left( \prod_{i = 1}^k s_i \right) \cdot \sum \prod_{i = 1}^k s_i^{c_i} \\
-& = \left( \prod_{i = 1}^k s_i \right) \cdot (s_1 + \cdots + s_k)^{k - 2} \\
+& = \left( \prod_{i = 1}^k s_i \right) \cdot (s_1 + \dots + s_k)^{k - 2} \\
 & = n^{k - 2} \prod_{i = 1}^k s_i
 \end{aligned}
 $$
 
 相当于是先将贡献 $\prod_{i = 1}^k s_i$ 取出。然后对于一种 Prufer 序列，连通块 $i$ 每出现一次，就会有乘以 $s_i$ 的贡献。
 
-由于 Prufer 序列上每个位置是独立的，一个位置共有 $s_1 + \cdots + s_k = n$ 种方案，则 $k - 2$ 个位置共有 $n^{k - 2}$ 种方案。故总方案数为 $n^{k - 2}\prod_{i = 1}^k s_i$。
+由于 Prufer 序列上每个位置是独立的，一个位置共有 $s_1 + \dots + s_k = n$ 种方案，则 $k - 2$ 个位置共有 $n^{k - 2}$ 种方案。故总方案数为 $n^{k - 2}\prod_{i = 1}^k s_i$。
 
 </details>
 

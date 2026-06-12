@@ -4,6 +4,7 @@ date: 2026-01-16 09:52:00
 updated: 2026-01-16 09:52:00
 categories: Ucup
 tags:
+  - 「交互题」
   - 随机化
   - 分治
 ---
@@ -16,7 +17,7 @@ Link：[QOJ 16000](https://qoj.ac/contest/2814/problem/16000)
 
 **This is an interactive problem.**
 
-对于 $1, \cdots, n$，有一个隐藏的序列 $a_i$，其中 $a_i$ 表示数字 $i$ 的颜色。
+对于 $1, \dots, n$，有一个隐藏的序列 $a_i$，其中 $a_i$ 表示数字 $i$ 的颜色。
 
 有一个队列（初始为空），可以进行以下两种操作：
 - `+ id`：将元素 $\mathrm{id}$ 加入队列末尾。

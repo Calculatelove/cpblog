@@ -4,7 +4,7 @@ date: 2025-03-12 00:00:03
 updated: 2026-03-04 00:00:03
 categories: Codeforces
 tags:
-  - DP
+  - 「DP」
 ---
 
 # Description
@@ -21,7 +21,7 @@ Link：[CF704B](https://codeforces.com/problemset/problem/704/B)
 
 你只需要求出排列的最小权值即可。
 
-数据范围：$1 \leq n \leq 5 \times 10^3$，$s \neq e$，$1 \leq x_1 < x_2 < \cdots < x_n \leq 10^9$，$1 \leq a_i, b_i, c_i, d_i \leq 10^9$。
+数据范围：$1 \leq n \leq 5 \times 10^3$，$s \neq e$，$1 \leq x_1 < x_2 < \dots < x_n \leq 10^9$，$1 \leq a_i, b_i, c_i, d_i \leq 10^9$。
 
 时空限制：$4$s / $250$MiB。
 

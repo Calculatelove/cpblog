@@ -4,6 +4,7 @@ date: 2025-09-15 19:11:24
 updated: 2025-09-15 19:11:24
 categories: ICPC
 tags:
+  - 「数据结构」
   - 分块
 ---
 
@@ -13,7 +14,7 @@ Link：[QOJ 14325](https://qoj.ac/contest/2524/problem/14325)
 
 {% note default %}
 
-给出一个长度为 $n$ 的序列 $a_0, a_1, \cdots, a_{n - 1}$，**保证 $n$ 是 $2$ 的若干次幂**。
+给出一个长度为 $n$ 的序列 $a_0, a_1, \dots, a_{n - 1}$，**保证 $n$ 是 $2$ 的若干次幂**。
 
 有 $Q$ 次操作，每次操作都形如以下操作中的一种：
 - `1 l r k`：对于所有 $i \in [l, r)$，令 $b_i = a_{i \oplus k}$。然后对于所有 $i \in [l, r)$，令 $a_i = b_i$。

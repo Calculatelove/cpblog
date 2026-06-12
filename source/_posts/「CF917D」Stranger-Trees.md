@@ -4,7 +4,7 @@ date: 2025-03-24 00:00:01
 updated: 2026-03-05 15:49:00
 categories: Codeforces
 tags: 
-  - DP
+  - 「DP」
   - Prufer 序列
 ---
 
@@ -28,7 +28,7 @@ Link：[CF917D](https://codeforces.com/problemset/problem/917/D)
 
 # Solution
 
-<span class="highlight">扩展 Cayley 公式</span>：对于一个包含 $n$ 个点 $m$ 条边的森林，设其有 $k$ 个连通块，大小分别为 $s_1, s_2, \cdots, s_k$，则可以使得森林变成树的加边方式恰有
+<span class="highlight">扩展 Cayley 公式</span>：对于一个包含 $n$ 个点 $m$ 条边的森林，设其有 $k$ 个连通块，大小分别为 $s_1, s_2, \dots, s_k$，则可以使得森林变成树的加边方式恰有
 
 $$
 n^{k - 2}\prod_{i = 1}^k s_i

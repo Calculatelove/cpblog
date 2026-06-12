@@ -4,7 +4,7 @@ date: 2025-03-15 00:00:01
 updated: 2026-03-04 00:00:01
 categories: Codeforces
 tags:
-  - DP
+  - 「DP」
 ---
 
 # Description
@@ -13,7 +13,7 @@ Link：[CF1174E](https://codeforces.com/problemset/problem/1174/E)
 
 {% note default %}
 
-对于一个长度为 $n$ 的排列 $p$，定义 $f(p)$ 表示：令 $g_i$ 表示 $p_1, \cdots, p_i$ 的最大公约数，则 $f(p)$ 表示 $g_1, g_2, \cdots, g_n$ 中不同元素的个数。
+对于一个长度为 $n$ 的排列 $p$，定义 $f(p)$ 表示：令 $g_i$ 表示 $p_1, \dots, p_i$ 的最大公约数，则 $f(p)$ 表示 $g_1, g_2, \dots, g_n$ 中不同元素的个数。
 
 令 $f_{\max}(n)$ 表示所有关于 $n$ 的排列 $p$ 中的 $f(p)$ 最大值，求有多少个关于 $n$ 的排列 $p$ 满足 $f(p) = f_{\max}(n)$。答案对 $10^9 + 7$ 取模。
 
@@ -37,7 +37,7 @@ Link：[CF1174E](https://codeforces.com/problemset/problem/1174/E)
 
 故第一个数只能被表示成 $2^x3^y$，其中 $y \in \{0, 1\}$。状态数为 $\mathcal{O}(\log n)$。
 
-设 $f(i, x, y)$ 表示，填到排列的前 $i$ 位，且当前的 gcd 为 $2^x3^y$ 时的方案数。设 $\mathrm{calc}(x) = \left\lfloor \frac{n}{x} \right\rfloor$ 表示 $1, \cdots, n$ 中 $x$ 的倍数的个数。
+设 $f(i, x, y)$ 表示，填到排列的前 $i$ 位，且当前的 gcd 为 $2^x3^y$ 时的方案数。设 $\mathrm{calc}(x) = \left\lfloor \frac{n}{x} \right\rfloor$ 表示 $1, \dots, n$ 中 $x$ 的倍数的个数。
 
 $$
 f(i + 1, x, y) \gets_{+} f(i, x, y) \cdot (\mathrm{calc}(2^x3^y) - i) \\

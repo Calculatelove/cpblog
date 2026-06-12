@@ -4,6 +4,8 @@ date: 2025-09-01 17:16:12
 updated: 2025-09-01 17:16:12
 categories: ICPC
 tags:
+  - 「字符串」
+  - 「数据结构」
   - SA
   - SAM
   - 线段树

@@ -4,6 +4,7 @@ date: 2025-03-10 00:00:02
 updated: 2026-03-02 00:00:02
 categories: Codeforces
 tags:
+  - 「DP」
   - 状压 DP
 ---
 

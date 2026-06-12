@@ -4,7 +4,7 @@ date: 2025-10-10 16:25:36
 updated: 2025-10-10 16:25:36
 categories: Codeforces
 tags:
-  - DP
+  - 「DP」
 ---
 
 # Description
@@ -23,7 +23,7 @@ Link：[CF2145G](https://codeforces.com/contest/2145/problem/G)
 
 对于优美的最终染色，我们定义**优美值**为实现该染色方案最少需要的操作次数。
 
-对于 $i = \min(n, m), \cdots, n + m - 1$，你需要求出优美值为 $i$ 的优美染色个数。
+对于 $i = \min(n, m), \dots, n + m - 1$，你需要求出优美值为 $i$ 的优美染色个数。
 
 数据范围：$2 \leq n, m \leq 2000$，$1 \leq k \leq n + m - 1$。
 

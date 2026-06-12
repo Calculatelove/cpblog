@@ -4,8 +4,8 @@ date: 2025-10-13 14:30:34
 updated: 2025-10-13 14:30:34
 categories: Codeforces
 tags:
+  - 「DP」
   - 结论题
-  - DP
 ---
 
 # Description
@@ -14,9 +14,9 @@ Link：[CF2159C](https://codeforces.com/contest/2159/problem/C)
 
 {% note default %}
 
-对于一个多项式 $f(x) = a_0 + a_1x + a_2x^2 + \cdots + a_nx^n$，当 $a_i(0 \leq i \leq n)$ 均为非负整数且 $a_n \neq 0$ 时，多项式 $f(x)$ 被称为 $n$ 阶有效多项式。
+对于一个多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，当 $a_i(0 \leq i \leq n)$ 均为非负整数且 $a_n \neq 0$ 时，多项式 $f(x)$ 被称为 $n$ 阶有效多项式。
 
-对于一个 $n$ 阶有效多项式 $f(x) = a_0 + a_1x + a_2x^2 + \cdots + a_nx^n$，其孪生多项式 $g(x)$ 定义为
+对于一个 $n$ 阶有效多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，其孪生多项式 $g(x)$ 定义为
 
 $$
 g(x) = \sum_{i = 0}^n i \cdot x^{a_i}
@@ -24,7 +24,7 @@ $$
 
 当且仅当 $f(x) = g(x)$ 时，$f(x)$ 被称为酷多项式。
 
-给出一个不完整的 $n$ 阶有效多项式 $f(x) = a_0 + a_1x + a_2x^2 + \cdots + a_nx^n$，$a_i$ 的一部分已经确定，剩余部分暂未确定。**保证 $a_0$ 与 $a_n$ 未确定**。
+给出一个不完整的 $n$ 阶有效多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，$a_i$ 的一部分已经确定，剩余部分暂未确定。**保证 $a_0$ 与 $a_n$ 未确定**。
 
 请求出确定了未确定的部分以后，能得到多少个 $n$ 阶有效酷多项式。答案对 $10^9 + 7$ 取模。
 
@@ -44,7 +44,7 @@ $$
 
 {% note info %}
 
-$f(x)$ 为酷多项式，则 $a_1, \cdots, a_n$ 必定满足这些情况：
+$f(x)$ 为酷多项式，则 $a_1, \dots, a_n$ 必定满足这些情况：
 - 指向零：$a_i = 0$。
 - 不动点：$a_i = i$。
 - 对换：$a_i = j$ 且 $a_j = i$，其中 $i \neq j$。

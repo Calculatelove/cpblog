@@ -21,10 +21,10 @@ $$
 $$
 M =
 \begin{bmatrix}
-e(a_1, b_1) & e(a_1, b_2) & \cdots & e(a_1, b_n) \\
-e(a_2, b_1) & e(a_2, b_2) & \cdots & e(a_2, b_n) \\
+e(a_1, b_1) & e(a_1, b_2) & \dots & e(a_1, b_n) \\
+e(a_2, b_1) & e(a_2, b_2) & \dots & e(a_2, b_n) \\
 \vdots & \vdots & \ddots & \vdots \\
-e(a_n, b_1) & e(a_n, b_2) & \cdots & e(a_n, b_n) \\
+e(a_n, b_1) & e(a_n, b_2) & \dots & e(a_n, b_n) \\
 \end{bmatrix}
 $$
 

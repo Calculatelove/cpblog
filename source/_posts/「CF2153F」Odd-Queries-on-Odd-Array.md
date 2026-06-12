@@ -4,6 +4,7 @@ date: 2025-10-12 18:52:28
 updated: 2025-10-12 18:52:28
 categories: Codeforces
 tags:
+  - 「数据结构」
   - 树形结构
 ---
 
@@ -13,7 +14,7 @@ Link：[CF2153F](https://codeforces.com/contest/2153/problem/F)
 
 {% note default %}
 
-给出一个长度为 $n$ 的序列 $a_1, a_2, \cdots, a_n$，满足不存在 $1 \leq i < j < k < l \leq n$ 使得 $a_i \neq a_j$，$a_i = a_k$，$a_j = a_l$。
+给出一个长度为 $n$ 的序列 $a_1, a_2, \dots, a_n$，满足不存在 $1 \leq i < j < k < l \leq n$ 使得 $a_i \neq a_j$，$a_i = a_k$，$a_j = a_l$。
 
 有 $Q$ 次询问，每次询问给出两个整数 $l, r(1 \leq l \leq r \leq n)$，你需要求出区间 $[l, r]$ 中所有出现了奇数次的数之和。
 
@@ -35,7 +36,7 @@ Link：[CF2153F](https://codeforces.com/contest/2153/problem/F)
 
 根据数组的神秘性质建树：
 - 初始栈中只有一个节点 $0$。
-- 依次遍历 $a_1, \cdots, a_n$，假设当前遍历到了 $a_i$。
+- 依次遍历 $a_1, \dots, a_n$，假设当前遍历到了 $a_i$。
   - 将当前栈顶与节点 $i$ 连边，节点 $i$ 的点权为 $a_i$。
   - 若 $i$ 是 $a_i$ 的第一次出现位置，则将节点 $i$ 入栈。
   - 若 $i$ 是 $a_i$ 最后一次出现位置，则将栈顶节点出栈（可以证明出栈的节点点权恰为 $a_i$）。
@@ -62,7 +63,7 @@ Link：[CF2153F](https://codeforces.com/contest/2153/problem/F)
 
 {% note info %}
 
-**性质 3**：该树的 dfs 序为 $0, 1, \cdots, n$。
+**性质 3**：该树的 dfs 序为 $0, 1, \dots, n$。
 
 {% endnote %}
 
@@ -78,7 +79,7 @@ Link：[CF2153F](https://codeforces.com/contest/2153/problem/F)
 
 对于 $l$ 所在的残缺子树：
 - 若 $a_l = a_u$，则 $l$ 所在的残缺子树仅有一个孤立点 $l$，计入孤立点个数即可。
-- 若 $a_l \neq a_u$，**则 $l$ 所在的残缺子树答案与外界独立**。设 $\mathrm{L}$ 表示 $l$ 所在子树的最大节点编号，我们要求的是 $a_{l, \cdots, L}$ 的答案，使用 $\mathrm{suf}_l - \mathrm{suf}_{L + 1}$ 得到即可。
+- 若 $a_l \neq a_u$，**则 $l$ 所在的残缺子树答案与外界独立**。设 $\mathrm{L}$ 表示 $l$ 所在子树的最大节点编号，我们要求的是 $a_{l, \dots, L}$ 的答案，使用 $\mathrm{suf}_l - \mathrm{suf}_{L + 1}$ 得到即可。
 
 （$r$ 所在的残缺子树同理，需要预处理出每个前缀的答案）
 

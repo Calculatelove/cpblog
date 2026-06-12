@@ -13,9 +13,9 @@ Link：[CF2173F](https://codeforces.com/contest/2173/problem/F)
 
 {% note default %}
 
-给出一个长度为 $n$ 的**非递增序列** $a_1, a_2, \cdots, a_n$（满足 $a_1 \geq a_2 \geq \cdots \geq a_n$）。
+给出一个长度为 $n$ 的**非递增序列** $a_1, a_2, \dots, a_n$（满足 $a_1 \geq a_2 \geq \dots \geq a_n$）。
 
-有 $Q$ 次查询，每次查询给出 $l, r, x$，你会依次遍历 $a_l, a_{l + 1}, \cdots, a_r$，你有一个计数器 $s$（初始 $s = 0$），每次将当前遍历到的数累加进 $s$，若任意时刻 $s \geq x$，你就会将 $s$ 清零。你需要求出遍历结束时，将 $s$ 清零的次数以及最后 $s$ 的值。
+有 $Q$ 次查询，每次查询给出 $l, r, x$，你会依次遍历 $a_l, a_{l + 1}, \dots, a_r$，你有一个计数器 $s$（初始 $s = 0$），每次将当前遍历到的数累加进 $s$，若任意时刻 $s \geq x$，你就会将 $s$ 清零。你需要求出遍历结束时，将 $s$ 清零的次数以及最后 $s$ 的值。
 
 数据范围：$1 \leq n, Q \leq 1.5 \times 10^5$，$1 \leq a_i, x \leq 10^9$，$1 \leq l \leq r \leq n$。
 

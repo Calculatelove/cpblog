@@ -10,7 +10,7 @@ type: "about"
 
 Hi, Calculatelove here! ✨
 - 📝[cnblogs](https://www.cnblogs.com/cjtcalc) 用于发布 笔记/浅谈/游记。
-- 📈[hexo-blog](https://calculatelove.github.io/) 用于发布 做题小记。
+- 📈[CP-Blog](https://calculatelove.github.io/) 用于发布 做题小记。
 
 <span class="highlight">做题小记</span>：
 - **记录有意义的内容**：有启发性的、有广泛性的 ...

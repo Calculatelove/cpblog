@@ -4,6 +4,7 @@ date: 2026-01-18 20:04:56
 updated: 2026-01-18 20:04:56
 categories: Luogu
 tags:
+  - 「数学」
   - 组合计数
 ---
 
