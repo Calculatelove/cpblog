@@ -14,7 +14,7 @@ Link：[CF2159C](https://codeforces.com/contest/2159/problem/C)
 
 {% note default %}
 
-对于一个多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，当 $a_i(0 \leq i \leq n)$ 均为非负整数且 $a_n \neq 0$ 时，多项式 $f(x)$ 被称为 $n$ 阶有效多项式。
+对于一个多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，当 $a_i$ ($0 \leq i \leq n$) 均为非负整数且 $a_n \neq 0$ 时，多项式 $f(x)$ 被称为 $n$ 阶有效多项式。
 
 对于一个 $n$ 阶有效多项式 $f(x) = a_0 + a_1x + a_2x^2 + \dots + a_nx^n$，其孪生多项式 $g(x)$ 定义为
 

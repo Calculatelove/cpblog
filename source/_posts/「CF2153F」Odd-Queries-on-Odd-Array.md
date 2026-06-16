@@ -15,7 +15,7 @@ Link：[CF2153F](https://codeforces.com/contest/2153/problem/F)
 
 给出一个长度为 $n$ 的序列 $a_1, a_2, \dots, a_n$，满足不存在 $1 \leq i < j < k < l \leq n$ 使得 $a_i \neq a_j$，$a_i = a_k$，$a_j = a_l$。
 
-有 $Q$ 次询问，每次询问给出两个整数 $l, r(1 \leq l \leq r \leq n)$，你需要求出区间 $[l, r]$ 中所有出现了奇数次的数之和。
+有 $Q$ 次询问，每次询问给出两个整数 $l, r$ ($1 \leq l \leq r \leq n$)，你需要求出区间 $[l, r]$ 中所有出现了奇数次的数之和。
 
 **本题强制在线。**
 
