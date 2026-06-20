@@ -25,6 +25,10 @@ Link：[ABC409G](https://atcoder.jp/contests/abc409/tasks/abc409_g)
 
 请你求出 $1, \dots, n$ 在操作结束后在 $a$ 中的期望出现次数。答案对 $998244353$ 取模。
 
+数据范围：$1 \leq n \leq 10^5$，$0 \leq P \leq 100$。
+
+时空限制：$2$s / $1024$MiB。
+
 {% endnote %}
 
 <!-- more -->

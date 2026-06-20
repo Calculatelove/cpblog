@@ -21,7 +21,7 @@ Link：[QOJ 10745](https://qoj.ac/contest/2025/problem/10745)
 
 数据范围：$1 \leq n, Q \leq 2 \times 10^5$，$1 \leq l \leq r \leq n$。
 
-数据范围：$4$s / $1024$MiB。
+时空限制：$4$s / $1024$MiB。
 
 {% endnote %}
 
