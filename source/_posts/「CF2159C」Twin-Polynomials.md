@@ -5,7 +5,7 @@ updated: 2025-10-13 14:30:34
 categories: Codeforces
 tags:
   - DP
-  - 结论题
+  - 结论
 ---
 
 # Description
