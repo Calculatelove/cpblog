@@ -2,7 +2,7 @@
 title: 「2025 ICPC 网络赛 2」I. DAG Query
 date: 2025-09-14 23:07:48
 updated: 2025-09-14 23:07:48
-categories: ICPC
+categories: 网络预选赛
 tags:
   - 拉格朗日插值
 ---

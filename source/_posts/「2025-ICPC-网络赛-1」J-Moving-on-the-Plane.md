@@ -2,7 +2,7 @@
 title: 「2025 ICPC 网络赛 1」J. Moving on the Plane
 date: 2025-09-07 22:54:01
 updated: 2025-09-07 22:54:01
-categories: ICPC
+categories: 网络预选赛
 tags:
   - 曼哈顿距离与切比雪夫距离的转化
   - 组合计数

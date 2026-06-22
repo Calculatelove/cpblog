@@ -2,7 +2,7 @@
 title: 「2025 ICPC 网络赛 2」L. Xor Mirror
 date: 2025-09-15 19:11:24
 updated: 2025-09-15 19:11:24
-categories: ICPC
+categories: 网络预选赛
 tags:
   - 分块
 ---

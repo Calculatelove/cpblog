@@ -2,7 +2,7 @@
 title: 「2025 ICPC 网络赛 2」K. The Only Heart
 date: 2025-09-14 23:59:26
 updated: 2025-09-14 23:59:26
-categories: ICPC
+categories: 网络预选赛
 tags:
   - DP
   - 树上背包

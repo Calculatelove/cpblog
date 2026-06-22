@@ -2,7 +2,7 @@
 title: 「2025 ICPC 武汉邀请赛」J. Dictionary
 date: 2025-09-01 17:16:12
 updated: 2025-09-01 17:16:12
-categories: ICPC
+categories: 邀请赛或省赛
 tags:
   - SA
   - SAM

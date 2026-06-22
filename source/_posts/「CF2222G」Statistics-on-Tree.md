@@ -1,7 +1,7 @@
 ---
 title: 「CF2222G」Statistics on Tree
-date: 2026-06-12 19:40:43
-updated: 2026-06-12 19:40:43
+date: 2026-05-18 16:14:57
+updated: 2026-05-18 16:14:57
 categories: Codeforces
 tags:
   - 树上问题

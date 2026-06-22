@@ -2,7 +2,7 @@
 title: 「2025 ICPC 网络赛 1」F. Robot
 date: 2025-09-08 15:22:51
 updated: 2025-09-08 15:22:51
-categories: ICPC
+categories: 网络预选赛
 tags:
   - 交互题
   - 构造
