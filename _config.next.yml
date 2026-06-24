@@ -674,7 +674,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active:
+  active: giscus
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -928,3 +928,19 @@ vendors:
 css: css
 js: js
 images: images
+
+# giscus
+giscus:
+  enable: true
+  repo: "calculatelove/cpblog"
+  repo_id: "R_kgDOPnCHXg"
+  category: "General"
+  category_id: "DIC_kwDOPnCHXs4C_y-Z"
+  mapping: pathname
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  theme: preferred_color_scheme
+  lang: zh-CN
+  input_position: bottom
+  loading: lazy
