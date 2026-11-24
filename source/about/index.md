@@ -9,8 +9,11 @@ type: "about"
 </blockquote>
 
 Hi, Calculatelove here! ✨
-- 📝[cnblogs](https://www.cnblogs.com/cjtcalc) 用于发布 笔记/浅谈/游记。
-- 📈[CP-Blog](/) 用于发布 做题小记。
+
+博客搬迁公告：
+- 🏠[My-Blog](https://calculatelove.cn/)：个人博客。
+- 📝[cnblogs](https://www.cnblogs.com/cjtcalc)：曾经的个人博客。今后偶尔会同步一些内容。
+- 📈[CP-Blog](/)：记录“算法竞赛做题小记”的博客。现已停更，相关内容迁移至 My Blog。
 
 <span class="highlight">做题小记</span>：
 - **记录有意义的内容**：有启发性的、有广泛性的 ...
