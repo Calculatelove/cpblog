@@ -99,7 +99,7 @@ namespace SGT {
                 opt == +1 ? gv[l].insert(y) : gv[l].erase(gv[l].find(y));
                 t[p].g = gv[l].empty() ? 0 : *(-- gv[l].end());
             }
-            t[p].ans = t[p].f + t[p].g;
+            t[p].ans = std::max(t[p].f, t[p].g);
             return;
         }
         int mid = (l + r) >> 1;
